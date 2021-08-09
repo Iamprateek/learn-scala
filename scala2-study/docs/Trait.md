@@ -160,3 +160,26 @@ We get a warning `Warning: match may not be exhaustive`
 * Sealed traits can only extend in the same source file as of sub-types- In above example, we have another class python in another scala file. Importing the trait geeks from language.scala we would get error message as below.
 * Sealed class is also mostly used in enums– Preventing illegal inheritance and using all the sub-type so to avoid exhaustive matching warnings.
 
+
+## Exercise 
+1. Create two Traits extending below abstract class :
+  ```
+  abstract class Trouser {
+    def color: String
+    def describe: String = s"$color"
+    override def toString = s"$describe trouser"
+  }
+  ```
+  * `Size` with 
+    *  parameter : `size: String`. This can be L/M/S/XXL etc.
+    *  method `describe(): String`. return a string in a way that given a size `L` for Style and color `green` for Trouser - it shall return `size L green trouser`.
+
+  * `Style` with
+    * method `describe(): String`. return a string in a way that given a color `green` for Trouser- it shall return `styled green trouser`.
+2. Create two more traits extending a trait `Style` created in above question. 
+  * `BellBottom` with
+    * method `describe(): String`. return a string in a way that given a color `green` for Trouser - it shall return `bell-bottom styled green trouser`.
+  * `MidRiseWaist` with
+    * method `describe(): String`. return a string in a way that given a color `green` for Trouser - it shall return `mid-rise styled green trouser`.
+3. Can you create a class Stylish Trouser extending abstract class and mixin traits created above, for which the toString() returns value like :
+    `size M bell-bottom mid-rise-waist styled red trouser`.
