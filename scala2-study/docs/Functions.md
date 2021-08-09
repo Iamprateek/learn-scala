@@ -120,3 +120,14 @@ println(randomIntFunction()) // random number is generated
 
 if we need to convert a method into a function, we can use the underscore:
 `val randomFunction = randomIntMethod _`
+
+
+
+## Exercises 
+
+1. Write a function that computes the area of a circle given its radius.
+2. Write a function that computes the area of a circle given its circumference. Solve using Nested function. 
+3. Write a function that that that takes integers , that can vary in count and generate xor value of all of those. Write function with and without using a collection. 
+4. Write a function called multiplier that takes two parameters, 1 as Int, and other of Function type`(Int)=>Int`. This multiplies the Int value with result of the function. 
+    * Create 2 anonymous functions incremeter( which increments its value by 1) and squared(which gives square of number). 
+    Now the problem will be how we can input another Integer for the function multiplier. The return type of multiplier has not been provided. So try to create your own way. 
