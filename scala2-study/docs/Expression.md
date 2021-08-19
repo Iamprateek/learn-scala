@@ -289,3 +289,13 @@ Ascription   ::=  `:' InfixType
                |  `:' Annotation {Annotation}
                |  `:' `_' `*'
 ```
+
+### Exercises
+
+* Write simple expression to add 2 Ints
+* Write statement expression 
+* Write expression block to square a number
+* Write if-else expression find a number is odd or even
+* Write match expression find a number is odd or even
+* Write for and while loop statements to print numbers from 1 to 5
+* Write expression using loop which returns a list from 1 to 5 
