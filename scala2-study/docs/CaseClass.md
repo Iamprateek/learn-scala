@@ -177,3 +177,12 @@ This way we can serialize and deserialize the objects of case class.
 *Serializing* an object means taking the data stored in an object and converting it to bytes (or a string). 
 
 *Deserializing* an object means reading data from a string / file to create a Scala object.
+
+### Exercises
+
+* Create case class Song with title, artist and track attributes 
+* Create case class object 
+* Get title from the object 
+* try to mutate the title value 
+* Compare 2 case classes 
+* Create new object using shallow copy 
