@@ -38,3 +38,10 @@ val Middle = Value(3, "The Middle Finger")
 val Ring = Value(4, "Finger With The Ring")
 val Little = Value(5, "Shorty Finger")
 ```
+
+### Exercises
+
+* Create enumerater with for days in a week
+* Implement a function isWorkingDay 
+* Get the working days for the enumerater 
+* Overriding identifier and name
